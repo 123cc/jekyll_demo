@@ -9,21 +9,21 @@
 ######请求url示例
 
 ######请求参数
-| 参数名称  |   参数类型  |    描述  
-|----------|-------------|----------
-|id        |   string    |    第三方系统ID      
-|userId    |   string    |    第三方系统用户ID
-|aliasName |   string    |    用户别名         
-|userName  |   string    |    用户名          
-|sex       |   int       |    用性别          
-|headImgUrl|   string    |    用户头像         
+ 参数名称  |   参数类型  |    描述  
+----------|-------------|----------
+id        |   string    |    第三方系统ID      
+userId    |   string    |    第三方系统用户ID
+aliasName |   string    |    用户别名         
+userName  |   string    |    用户名          
+sex       |   int       |    用性别          
+headImgUrl|   string    |    用户头像         
 
 ######响应结果
-| 参数名称 |   参数类型   |    描述  
-|-------- |-------------|----------
-|  error  |   String    |  错误码，0000标示成功，非0000标示失败        
-|  message|   String    |  错误信息        
-|  data   |   String    |  null        
+ 参数名称 |   参数类型   |    描述  
+-------- |-------------|----------
+  error  |   String    |  错误码，0000标示成功，非0000标示失败        
+  message|   String    |  错误信息        
+  data   |   String    |  null        
 
 ######请求包示例
     { }
@@ -33,9 +33,9 @@
 #####错误码说明
     HTTP 返回码均为 200，真正的错误码，错误信息是通过应答包体中的 error、message 来表示的。
     本 API 私有错误码如下：
-| 错误码  |   描述   
-|--------|----------
-|  0000  |   正确结果
+ 错误码  |   描述   
+--------|----------
+  0000  |   正确结果
 
 
 
